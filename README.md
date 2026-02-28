@@ -27,13 +27,14 @@ An 8-hour hands-on capstone experience using the **Cleveland Heart Disease** dat
 | `03_trees_and_ensembles.R` | Session 3 | 11:00 AM–12:00 PM | Decision tree, random forest, gradient boosting, model evaluation |
 | `04_regression_and_comparison.R` | Session 4 | 1:00–2:15 PM | Logistic regression, stepwise selection, ROC curves, model comparison |
 | `05_unsupervised.R` | Session 5 | 2:30–3:30 PM | PCA, tSNE, K-means clustering |
-| `full_script.R` | All | — | Complete day's code in one file (run top to bottom) |
+| `06_neural_network.R` | Session 7 | Final Exercise | Neural networks, architecture visualization, ML vs NN leaderboard |
+| `full_script.R` | Sessions 1–5 | — | Complete day's code in one file (run top to bottom) |
 
 ## Prerequisites
 
 - **R** and **RStudio** installed
 - Internet connection (to download the dataset from UCI)
-- Packages from Weeks 1–8: `rpart`, `rpart.plot`, `randomForest`, `gbm`, `ggplot2`, `caret`, `e1071`, `Rtsne`, `cluster`, `factoextra` (installed by `00_setup.R`)
+- Packages from Weeks 1–8 + neural networks: `rpart`, `rpart.plot`, `randomForest`, `gbm`, `ggplot2`, `caret`, `e1071`, `Rtsne`, `cluster`, `factoextra`, `neuralnet`, `NeuralNetTools` (installed by `00_setup.R`)
 
 ## Dataset
 

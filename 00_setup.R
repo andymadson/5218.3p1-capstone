@@ -9,7 +9,8 @@
 install.packages(c(
   "ggplot2", "corrplot", "rpart", "rpart.plot",
   "randomForest", "gbm", "caret", "e1071",
-  "Rtsne", "cluster", "factoextra", "reshape2"
+  "Rtsne", "cluster", "factoextra", "reshape2",
+  "neuralnet", "NeuralNetTools"
 ), repos = "https://cloud.r-project.org")
 
 # Load every library we will use today
@@ -25,5 +26,7 @@ library(e1071)
 library(Rtsne)
 library(cluster)
 library(factoextra)
+library(neuralnet)
+library(NeuralNetTools)
 
 cat("All packages installed and loaded!\n")
